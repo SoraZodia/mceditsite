@@ -36,3 +36,11 @@ body {
 .ui.button a:hover {
   color: #3071A9;
 }
+
+.ui.fluid.image.segment {
+  padding: 5px 5px 5px 5px;
+}
+
+.ui.fluid.image.segment:hover {
+  border-color: blue;
+}
