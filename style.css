@@ -1,0 +1,38 @@
+body {
+  margin: 50px 50px 50px 50px;
+  font-family: sans-serif, Serif;
+}
+
+.gray {
+  background-color: #F5F5F5 !important;
+}
+
+.navText {
+  color: #7C7C7C !important;
+}
+
+#box {
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+#buttonbox {
+  padding: 17px 20px 25px 20px;
+}
+
+#button {
+  background: #59B359;
+  background: linear-gradient(#61C361, #53A753);
+}
+
+.ui.bulleted.list {
+  padding-left: 25px;
+}
+
+.ui.button a:link {
+  color: white;
+}
+
+.ui.button a:hover {
+  color: #3071A9;
+}

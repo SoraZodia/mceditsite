@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>MCEdit</title>
+</head>
+<body>
+<div class="gray ui fixed borderless menu">
+  <div class="ui container">
+    <a style="font-size: 15px" href="http://www.mcedit.net/" class="item navText">
+      <img src="http://www.mcedit.net/images/icon_new.png">MCEdit
+    </a>
+    <a href="http://www.mcedit.net/about.html" class="item navText">About</a>
+    <a href="http://www.mcedit.net/downloads.html" class="item navText">Download</a>
+    <a href="http://mcedit2.readthedocs.io/en/latest/" class="item navText">Documentation</a>
+    <a href="https://github.com/mcedit/mcedit2/wiki/Reporting-Issues" class="item navText">Report Issue</a>
+    <a href="https://github.com/mcedit/mcedit2" class="item navText">Source Code</a>
+    <a href="http://khroki.github.io/MCEdit-Unified/" class="item navText">MCEdit 1.0</a>
+    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UZGWD6FFLCFJA&lc=US&item_name=MCEdit%2c%20a%20World%20Editor%20for%20Minecraft&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
+       class="right item"><img src="http://www.mcedit.net/images/btn_pponly_82x27.png" class="ui image"></a>
+    <a href="http://www.patreon.com/mcedit2" class="item"><img src="http://www.mcedit.net/images/patreon_118_27.png"
+                                                               class="ui image"></a>
+  </div>
+</div>
+<div class="ui two column centered grid container">
+  <div class="ui five wide left aligned column">
+    <div id="buttonbox" class="gray ui segment">
+        <button id="button" class="ui fluid green button">
+          <a href="http://www.mcedit.net/downloads.html"><i class="disk outline icon"></i>Download MCEdit</a>
+        </button>
+        <br>
+        <p><i>Minecraft versions supported:</i></p>
+        <p>PC: <strong>1.7, 1.8, 1.9, 1.10, Forge 1.7</strong></p>
+        <p>Pocket: <a href="http://www.patreon.com/mcedit2">Support me on Patreon!</a></p>
+        <p>XBox: <a href="http://www.patreon.com/mcedit2">Support me on Patreon!</a></p>
+    </div>
+    <div id="box" class="gray ui segment">
+      <h2 class="ui header">Recent Posts</h2>
+      <div class="ui bulleted list">
+        <a href="http://www.mcedit.net/2016/09/mcedit2-beta" class="item">MCEdit 2 Beta</a>
+        <a href="http://www.mcedit.net/2015/10/dev-digest-3" class="item">Development Digest 3</a>
+        <a href="http://www.mcedit.net/2015/05/dev-digest-2" class="item">Development Digest 2</a>
+        <a href="http://www.mcedit.net/2015/02/dev-digest-1" class="item">Development Digest 1</a>
+        <a href="http://www.mcedit.net/2015/02/mcedit2-prerelease" class="item">MCEdit 2.0 alpha 2.0.0-alpha1
+          released</a>
+      </div>
+      <a href="http://www.mcedit.net/archive.html">Post Archive</a>
+    </div>
+    <div id="box" class="gray ui segment">
+      <h2 class="ui header">Links</h2>
+      <div class="ui bulleted list">
+        <a href="https://github.com/mcedit/mcedit2/wiki/Reporting-Issues" class="item">Report an issue</a>
+        <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=UZGWD6FFLCFJA&lc=US&item_name=MCEdit%2c%20a%20World%20Editor%20for%20Minecraft&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted"
+           class="item">Donate via PayPal</a>
+        <a href="http://www.patreon.com/mcedit2" class="item">Donate via Patreon</a>
+        <a href="http://www.mcedit.net/tools.html" class="item">Other tools</a>
+        <a href="http://khroki.github.io/MCEdit-Unified/" class="item">MMCEdit 1.x (legacy codebase)</a>
+        <a href="http://minecraft.net/" class="item">Play Minecraft</a>
+      </div>
+    </div>
+    <div id="box" class="gray ui center aligned segment">
+      <a class="twitter-timeline" data-width="290" data-height="610" href="https://twitter.com/codewarrior0">Tweets by
+        codewarrior0</a>
+      <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </div>
+  <div style="padding-top: 30px" class="ui left aligned column">
+    <h1 class="ui header">
+      About MCEdit 2.0
+    </h1>
+    <p class="text">
+      MCEdit 2 is an open source world editor for the popular game Minecraft. MCEdit 2 is currently in pre-alpha and
+      most of the following features have not yet been restored. (Check back again soon!) </p>
+    <p class="text">
+      MCEdit was first created to allow players to preserve anything built with several old versions of Minecraft and
+      take them forward into newer versions of the game. It also aims to be forward-compatible with future (or even
+      modified) versions of Minecraft. It has since been improved with brush tools for laying down blocks in different
+      shapes, integration with the Minecraft Server to generate terrain using Minecraft’s own seed algorithms, support
+      for multiplayer worlds, and editors for certain blocks including chests and mob spawners.
+    </p>
+
+    <h1 class="ui header">Features: </h1>
+    <div class="ui bulleted list">
+      <div class="item">Navigate the world using familiar WASD controls and mouse aiming.</div>
+      <div class="item">Show the locations of dropped items, game entities including monsters and villagers, hidden
+        ores, plus blocks with TileEntities and other Minecraft internals.
+      </div>
+      <div class="item">Load saved games from current Minecraft versions, plus the older Classic and Indev versions.
+      </div>
+      <div class="item">Limited support for Minecraft Pocket Edition saved games</div>
+      <div class="item">Export blocks and game entities as a .schematic file to be imported by MCEdit or compatible
+        programs.
+      </div>
+      <div class="item">Automatically fixes wool colors when importing and exporting between Minecraft PC, Classic,
+        and
+        Pocket editions!
+      </div>
+      <div class="item">Double-click on a chest to change its contents, or double-click on a mob spawner to choose
+        what
+        spawns.
+      </div>
+      <div class="item">Brush tool “paints” blocks in a round, diamond, or square shape with configurable size.
+        Different brush modes will add new blocks, replace blocks, alter the top layer of the terrain or wear it down
+        to
+        smooth out rough objects.
+      </div>
+      <div class="item">“Paste” brush allows you to import an object with a single click.</div>
+      <div class="item">“Flood Fill” brush will change all blocks that form a connected mass.</div>
+      <div class="item">Clone tool makes a copy of blocks and entities, optionally making multiple clones in a line or
+        scaling the copy up or down.
+      </div>
+      <div class="item">Clone and Import tools can rotate an object around any axis, or flip it horizontally or
+        vertically.
+      </div>
+      <div class="item">“Filter” plugins let users add functionality to MCEdit by writing Python code.</div>
+      <div class="item">Move the world’s spawn point, automatically removing blocks to make sure the spawn point is
+        acceptable to Minecraft.
+      </div>
+      <div class="item">Move and rotate any player in a single- or multiplayer world.</div>
+      <div class="item">Expand or contract the world’s size by adding or deleting chunks. Chunks are the basis of
+        Minecraft’s “infinite” saved game format.
+      </div>
+      <div class="item">Create new worlds or add chunks to existing worlds. The Minecraft Server can be harnessed to
+        create natural terrain that meshes with the world’s existing seed. Flatlands can also be created at any
+        height.
+        *“Analyze” feature counts the block and entity types in a selected area, optionally saving them to a .csv
+        file.
+      </div>
+      <div class="item">Maintenance commands can delete all blocks, entities, or chunks in a selected region. This is
+        useful for getting a “corrupted” world back into a playable state.
+      </div>
+    </div>
+    <a href="http://www.mcedit.net/about.html#"><img class="ui fluid image"
+                                                     src="http://www.mcedit.net/images/screenshots/techdemo.png"></a>
+  </div>
+</div>
+</div>
+</body>
+</html>
